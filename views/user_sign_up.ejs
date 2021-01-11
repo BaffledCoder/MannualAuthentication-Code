@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link href="/css/auth.css" rel="stylesheet">
+</head>
+<body>
+    <h1>SignUp</h1>
+    <form action="/auth/create" method="POST">
+        <b>Name: </b><input name = "name" placeholder = "Name" type="text" required><br>
+        <b>Email: </b><input name = "email" placeholder = "abc@xyz" type ="email"><br>
+        <b>Password: </b><input name = "password" placeholder = "Password" type = "password" required><br>
+        <b>Confirm Password: </b><input name = "confirm_password" placeholder = "Confirm Password" type = "password" required><br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link href="/css/auth.css" rel="stylesheet">
+</head>
+<body>
+    <h1>SignIn</h1>
+    <form action="/auth/create-session" method="POST">
+        <b>Email: </b><input name = "email" placeholder = "abc@xyz" type ="email"><br>
+        <b>Password: </b><input name = "password" placeholder = "Password" type = "password" required><br>
+        <input type="submit" value="Sign In">
+    </form>
+</body>
+</html>
